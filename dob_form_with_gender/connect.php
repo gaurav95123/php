@@ -21,6 +21,7 @@ $gender = $_POST["gender"];
 
 // Define the SQL statement for data insertion
 $insert_sql = "INSERT INTO dob(name, dob, gender) VALUES ( '$name','$dob', '$gender')";
+// talk about gender option in database it will take enum type value same as it is index value.
 
 // Execute the SQL statement
 if ($conn->query($insert_sql) === TRUE) {
