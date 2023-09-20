@@ -1,5 +1,5 @@
 <?php
-// this file is upload image on particular folder 
+// this file is upload image on particular folder like assets/images/ directory.
 include 'config.php';
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
